@@ -1,0 +1,11 @@
+10. CREATE DATABASE halozat DEFAULT CHARACTER SET utf8 COLLATE utf8_hungarian_ci;
+
+13. UPDATE `jaratok` SET `elsoAjtos`= 0 WHERE `id`= 20;
+
+14. SELECT `jaratSzam` FROM `jaratok` WHERE `elsoAjtos`= 1;
+
+15. SELECT `nev` FROM `megallok` WHERE `nev` LIKE "%sétány%" ORDER BY `nev` ASC;
+
+16. SELECT halozat.sorszam, megallok.nev AS "megallo" FROM halozat INNER JOIN jaratok ON jaratok.id = halozat.jarat INNER JOIN megallok ON megallok.id = halozat.megallo WHERE jaratok.jaratSzam = "CITY" AND halozat.irany = "A" ORDER BY sorszam ASC;
+
+17. SELECT megallok.nev AS "megallo", COUNT(megallok.nev) AS "jaratokSzama" FROM halozat INNER JOIN jaratok ON jaratok.id = halozat.jarat INNER JOIN megallok ON megallok.id = halozat.megallo GROUP BY megallok.nev HAVING jaratokSzama >= 3;
