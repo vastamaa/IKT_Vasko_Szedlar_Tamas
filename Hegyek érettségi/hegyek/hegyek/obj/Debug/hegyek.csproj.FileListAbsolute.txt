@@ -1,0 +1,7 @@
+C:\vaskosztamas\hegyek\hegyek\bin\Debug\hegyek.exe.config
+C:\vaskosztamas\hegyek\hegyek\bin\Debug\hegyek.exe
+C:\vaskosztamas\hegyek\hegyek\bin\Debug\hegyek.pdb
+C:\vaskosztamas\hegyek\hegyek\obj\Debug\hegyek.csproj.AssemblyReference.cache
+C:\vaskosztamas\hegyek\hegyek\obj\Debug\hegyek.csproj.CoreCompileInputs.cache
+C:\vaskosztamas\hegyek\hegyek\obj\Debug\hegyek.exe
+C:\vaskosztamas\hegyek\hegyek\obj\Debug\hegyek.pdb
