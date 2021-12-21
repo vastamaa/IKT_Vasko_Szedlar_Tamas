@@ -29,7 +29,6 @@ namespace Autokereskedes
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.megnyitásToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,15 +42,6 @@ namespace Autokereskedes
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Location = new System.Drawing.Point(0, 28);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(811, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
             // menuStrip2
             // 
             this.menuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -60,7 +50,8 @@ namespace Autokereskedes
             this.névjegyToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(811, 28);
+            this.menuStrip2.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip2.Size = new System.Drawing.Size(608, 24);
             this.menuStrip2.TabIndex = 1;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -72,33 +63,33 @@ namespace Autokereskedes
             this.újLétrehozásaToolStripMenuItem,
             this.kezelőToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(117, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(95, 20);
             this.fileToolStripMenuItem.Text = "Fájl műveletek";
             // 
             // megnyitásToolStripMenuItem
             // 
             this.megnyitásToolStripMenuItem.Name = "megnyitásToolStripMenuItem";
-            this.megnyitásToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.megnyitásToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.megnyitásToolStripMenuItem.Text = "Megnyitás";
             this.megnyitásToolStripMenuItem.Click += new System.EventHandler(this.megnyitásToolStripMenuItem_Click);
             // 
             // mentésToolStripMenuItem
             // 
             this.mentésToolStripMenuItem.Name = "mentésToolStripMenuItem";
-            this.mentésToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.mentésToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.mentésToolStripMenuItem.Text = "Mentés";
             this.mentésToolStripMenuItem.Click += new System.EventHandler(this.mentésToolStripMenuItem_Click);
             // 
             // újLétrehozásaToolStripMenuItem
             // 
             this.újLétrehozásaToolStripMenuItem.Name = "újLétrehozásaToolStripMenuItem";
-            this.újLétrehozásaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.újLétrehozásaToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.újLétrehozásaToolStripMenuItem.Text = "Új létrehozása";
             // 
             // kezelőToolStripMenuItem
             // 
             this.kezelőToolStripMenuItem.Name = "kezelőToolStripMenuItem";
-            this.kezelőToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.kezelőToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.kezelőToolStripMenuItem.Text = "Kezelő";
             this.kezelőToolStripMenuItem.Click += new System.EventHandler(this.kezelőToolStripMenuItem_Click);
             // 
@@ -108,13 +99,13 @@ namespace Autokereskedes
             this.névjegy,
             this.kilépés});
             this.névjegyToolStripMenuItem.Name = "névjegyToolStripMenuItem";
-            this.névjegyToolStripMenuItem.Size = new System.Drawing.Size(77, 24);
+            this.névjegyToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.névjegyToolStripMenuItem.Text = "Névjegy";
             // 
             // névjegy
             // 
             this.névjegy.Name = "névjegy";
-            this.névjegy.Size = new System.Drawing.Size(191, 26);
+            this.névjegy.Size = new System.Drawing.Size(152, 22);
             this.névjegy.Text = "Névjegy";
             this.névjegy.Click += new System.EventHandler(this.névjegy_Click);
             // 
@@ -122,28 +113,28 @@ namespace Autokereskedes
             // 
             this.kilépés.Name = "kilépés";
             this.kilépés.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.kilépés.Size = new System.Drawing.Size(191, 26);
+            this.kilépés.Size = new System.Drawing.Size(152, 22);
             this.kilépés.Text = "Kilépés";
             this.kilépés.Click += new System.EventHandler(this.kilépés_Click);
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(12, 55);
+            this.panel1.Location = new System.Drawing.Point(9, 26);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(787, 329);
+            this.panel1.Size = new System.Drawing.Size(590, 286);
             this.panel1.TabIndex = 2;
             // 
             // Autokereskedes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(811, 467);
+            this.ClientSize = new System.Drawing.Size(608, 379);
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.menuStrip2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Autokereskedes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Autókereskedés";
@@ -155,8 +146,6 @@ namespace Autokereskedes
         }
 
         #endregion
-
-        private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.MenuStrip menuStrip2;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem megnyitásToolStripMenuItem;

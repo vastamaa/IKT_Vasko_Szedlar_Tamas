@@ -10,3 +10,15 @@ C:\Users\Tanulo\source\repos\Autokereskedes\Autokereskedes\obj\Debug\Autokereske
 C:\Users\Tanulo\source\repos\Autokereskedes\Autokereskedes\obj\Debug\Autokereskedes.csproj.AssemblyReference.cache
 C:\Users\Tanulo\source\repos\Autokereskedes\Autokereskedes\obj\Debug\Autokereskedes.Control.resources
 C:\Users\Tanulo\source\repos\Autokereskedes\Autokereskedes\obj\Debug\Autokereskedes.About.resources
+F:\Documents\GitHub\IKT_Vasko_Szedlar_Tamas\Autokereskedes\Autokereskedes\bin\Debug\Autokereskedes.exe.config
+F:\Documents\GitHub\IKT_Vasko_Szedlar_Tamas\Autokereskedes\Autokereskedes\bin\Debug\Autokereskedes.exe
+F:\Documents\GitHub\IKT_Vasko_Szedlar_Tamas\Autokereskedes\Autokereskedes\bin\Debug\Autokereskedes.pdb
+F:\Documents\GitHub\IKT_Vasko_Szedlar_Tamas\Autokereskedes\Autokereskedes\obj\Debug\Autokereskedes.csprojAssemblyReference.cache
+F:\Documents\GitHub\IKT_Vasko_Szedlar_Tamas\Autokereskedes\Autokereskedes\obj\Debug\Autokereskedes.About.resources
+F:\Documents\GitHub\IKT_Vasko_Szedlar_Tamas\Autokereskedes\Autokereskedes\obj\Debug\Autokereskedes.Control.resources
+F:\Documents\GitHub\IKT_Vasko_Szedlar_Tamas\Autokereskedes\Autokereskedes\obj\Debug\Autokereskedes.Autokereskedes.resources
+F:\Documents\GitHub\IKT_Vasko_Szedlar_Tamas\Autokereskedes\Autokereskedes\obj\Debug\Autokereskedes.Properties.Resources.resources
+F:\Documents\GitHub\IKT_Vasko_Szedlar_Tamas\Autokereskedes\Autokereskedes\obj\Debug\Autokereskedes.csproj.GenerateResource.cache
+F:\Documents\GitHub\IKT_Vasko_Szedlar_Tamas\Autokereskedes\Autokereskedes\obj\Debug\Autokereskedes.csproj.CoreCompileInputs.cache
+F:\Documents\GitHub\IKT_Vasko_Szedlar_Tamas\Autokereskedes\Autokereskedes\obj\Debug\Autokereskedes.exe
+F:\Documents\GitHub\IKT_Vasko_Szedlar_Tamas\Autokereskedes\Autokereskedes\obj\Debug\Autokereskedes.pdb

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "99fa6f5b-3b31-4c5d-afcd-d046ccf3e274": {
+      "ProjectGuid": "99fa6f5b-3b31-4c5d-afcd-d046ccf3e274",
+      "DisplayName": "HelloWordService",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
